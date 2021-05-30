@@ -1,0 +1,96 @@
+body 
+{
+position: static;
+/*background-image: url("imagem/imagem fundo.jpeg");*/
+background-color:green;
+color: black;
+background-size: 1000px;
+}
+
+h1
+{
+	color: lightblue;
+	font-family: calibri;
+}
+
+.agrup
+{
+display: flex;
+flex-wrap: wrap;
+/*lado a lado*/
+}
+
+.not
+{
+	font-size: 2.5em;
+	color: white;
+}
+
+.container {
+	padding: 7px;
+	max-width: 650px;
+    margin: 0 auto;
+    border: 1px;
+    display: flex;
+    background-color: gray;
+
+    /*flex-direction: row; */
+    /*flex-wrap: wrap; retirar para não ter quebra de linha qd nao cabe no container */
+   /* justify-content: left;
+    /align-content: left;/
+    align-items: left;*/
+      }
+
+
+.menuProjeto{
+	display: flex;
+	direction: column;
+	border:1px solid lightgreen;
+	border-color: darkgreen;
+	/*width: 17em;*/
+	height: 3.8em;
+	font-size: 1.3em;
+	box-shadow: 5px 5px black;
+	justify-content: center;
+	background-color: darkgreen;
+}
+
+.nome_musica
+{
+	color: white;
+}
+
+.menu{
+	display: flex;
+	direction: column;
+	border:1px solid lightgreen;
+	font-size: 1.3em;
+	height: 3.8em;
+}
+
+#fixo {
+position: fixed;
+right: 10px;
+align-content: left;
+}
+
+#estatico {
+position: static;
+}
+
+#relativo {
+	position: relative;
+	}
+
+.imagem{
+
+margin: 5px 5px 5px 5px;
+
+/*padding-left: 2rem;*/
+}
+
+
+
+.container:hover {
+            transform: scale(1.1,1.1);        
+        }

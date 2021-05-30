@@ -1,0 +1,44 @@
+body
+{
+font-family: Arial;
+text-shadow: blue;
+color:black;
+}
+
+li
+{
+font: italic bold 16px/16px Calibri, serif;
+}
+
+.borda{
+border-top: 10px groove white;
+border-right: 10px groove white;
+border-bottom: 10px groove white;
+border-left: 10px groove white;
+}
+
+.form{
+	  background: linear-gradient(to top right ,gray, cyan,darkgray);
+	  border-radius: 15px;
+      border: 1px;
+      max-width: 500px;
+      box-shadow: 5px 5px 5px 5px aqua;
+      padding: 10px 30px 10px 7px;
+      font-size: 25px;
+}
+
+.CaixaDeTexto{
+	border-radius: 5px;
+	border-color: lightgreen;
+}
+
+.container{
+        display: flex; 
+        flex-direction: row; 
+}
+
+
+input:hover{
+	background: cornflowerblue; 
+	text-decoration:underline;
+}
