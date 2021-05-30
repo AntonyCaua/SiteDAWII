@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<title>Projeto de Site</title>
+	<link rel="icon"  href="imagem/favicon.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   
+	<style type="text/css">
+		body{
+			background-color: #0F9B8E;
+		}
+
+	  .box {
+ 	  	padding: 70px;
+ 	  	border-radius: 5px;	  	
+ 	  	margin-bottom: 10px; 	  	
+	  }
+	  
+ 	  .boxPrincipal {
+ 	  	background-color: rgb(30,30,30);
+ 	  	color: white;
+
+ 	  }
+
+ 	  .boxContato{
+ 	  	background-color: black;
+
+ 	  }
+
+ 	  .boxCursos {
+ 	  	background-color: #343837;
+ 	  } 	  
+
+ 	  .marginCards {
+ 	  	margin-bottom: 30px;
+ 	  }
+
+ 	  .centro{
+ 	  	text-align: center;
+ 	  }
+
+ 	  .boxCard{
+ 	  	color: white;
+ 	  	background-color: #03719C;
+ 	  	border-color: white;
+ 	  }
+
+ 	  .TamanhoCard{
+ 	  	height: 450px;
+ 	  }
+
+ 	  .corBotao{
+ 	  	background-color: darkorange;
+ 	  	color: white;
+ 	  	border-color: black;
+ 	  }
+
+ 	.corBotao:hover{
+ 		background-color: darkorange;
+ 		border-color: black;
+ 	}
+
+	</style>	
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+   		<img src="imagem/AR.png" alt="" width="50" height="35" style="border-radius: 13px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Projeto_Inicio.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Noticias.html">Notícias</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Escolha seu tipo de música
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#Sertaneja">Sertaneja</a></li>
+            <li><a class="dropdown-item" href="#Pop">Pop</a></li>
+            <li><a class="dropdown-item" href="#Rock">Rock</a></li>
+          </ul>
+
+          <li class="nav-item">
+          <a class="nav-link" href="#Contato">Fale Conosco</a>
+        </li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+	<div class="container box boxPrincipal">  
+		<br>
+        <h1 class="display-3 centro"  style="font-family: Times New Roman">AR - Músicas</h1>        
+        <p class="lead centro">Esse site engloba várias músicas para o seu entretenimento</p>
+        <hr>
+        <a href="Formulários.html" class="btn btn-primary btn-lg centro" style="background-color: gray; border-color: black" >
+            Cadastre-se no nosso site para receber nossas recomendações de músicas
+        </a>
+    </div>	
+	
+
+
+	<div class="container box boxPrincipal centro">
+	<h3 class="display-3 centro" style="font-family: Times New Roman">Músicas Recomendadas</h3>
+	<div class="row">   
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/hurricane_fleure.png" class="card-img-top" alt="Fleure">
+				  <div class="card-body">
+				    <h5 class="card-title">Hurricane</h5>
+				    <p class="card-text"> Fleure</p>
+				    <a href="https://www.youtube.com/watch?v=nZcf3oXfz5k" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div> 
+				</div>    			
+    		</div>
+
+			<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Joji Like you do.png" class="card-img-top" alt="Like you do">
+				  <div class="card-body">
+				    <h5 class="card-title">Like you do</h5>
+				    <p class="card-text"> Joji</p>
+				    <a href="https://www.youtube.com/watch?v=Bv-1BnoB75k" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div>
+				</div>       			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Kill.png" class="card-img-top" alt="KillStation">
+				  <div class="card-body">
+				    <h5 class="card-title">Stasis</h5>
+				    <p class="card-text"> Killstation</p>
+				    <a href="https://www.youtube.com/watch?v=PHvMh0knBgI" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div>
+				</div>       			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Worst.png" class="card-img-top" alt="Maisie Peters">
+				  <div class="card-body">
+				    <h5 class="card-title">Worst of You</h5>
+				    <p class="card-text"> Maisie Peters</p>
+				    <a href="https://www.youtube.com/watch?v=_ay4mJFes64" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div>
+				</div>       			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Hate.png" class="card-img-top" alt="Gnash">
+				  <div class="card-body">
+				    <h5 class="card-title">I hate u, I love u</h5>
+				    <p class="card-text"> Gnash</p>
+				    <a href="https://www.youtube.com/watch?v=BiQIc7fG9pA" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div>
+				</div>       			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Brenna.png" class="card-img-top" alt="Brennan Savage">
+				  <div class="card-body">
+				    <h5 class="card-title">Reflection</h5>
+				    <p class="card-text"> Brennan Savage</p>
+				    <a href="https://www.youtube.com/watch?v=XCFcnAUoCpI" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div>
+				</div>       			
+    		</div>
+
+
+    </div>
+</div>
+</div>
+		<div><!----------------------------------------------------------------------------------------------->
+		 
+		      	<div class="container box boxPrincipal centro" id="Sertaneja">
+		      	<h3 class="display-3 centro" style="font-family: Times New Roman" >Músicas Sertanejas</h3>
+    	<div class="row">   
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/2Manha.png" class="card-img-top" alt="Gustavo lima">
+				  <div class="card-body">
+				    <h5 class="card-title">Duas da Manhã</h5>
+				    <p class="card-text"> Gustavo Lima</p>
+				    <a href="https://www.youtube.com/watch?v=gK5fnHpU6qg" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div> 
+				</div>    			
+    		</div>
+
+			<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/meteoro.png" class="card-img-top" alt="Luan Santana">
+				  <div class="card-body">
+				    <h5 class="card-title">Meteoro</h5>
+				    <p class="card-text"> Luan Santana</p>
+				    <a href="https://www.youtube.com/watch?v=xHlpgmknFqs" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div> 
+				</div>    			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Voltas.png" class="card-img-top" alt="Carol & Vitória">
+				  <div class="card-body">
+				    <h5 class="card-title">Numa Dessas Voltas</h5>
+				    <p class="card-text"> Carol & Vitória</p>
+				    <a href="https://www.youtube.com/watch?v=xMHjfforAuo" class="btn btn-primary corBotao">Clipe Oficial</a>
+					  </div> 
+					</div>    			
+    			</div>
+    		</div>
+ 	   </div>	
+	</div>
+</div>
+
+
+	<div class="container box boxPrincipal centro" id="Pop">
+			<h3 class="display-3 centro" style="font-family: Times New Roman" >Músicas Pop</h3>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/secrets.png" class="card-img-top" alt="One Republic">
+				  <div class="card-body">
+				    <h5 class="card-title">Secrets</h5>
+				    <p class="card-text"> One Republic</p>
+				    <a href="https://www.youtube.com/watch?v=qHm9MG9xw1o" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div> 
+				</div>    			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Monkey.png" class="card-img-top" alt="Tones and I">
+				  <div class="card-body">
+				    <h5 class="card-title">Dance Monkey</h5>
+				    <p class="card-text">Tones and I</p>
+				    <a href="https://www.youtube.com/watch?v=q0hyYWKXF0Q" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div> 
+				</div>    			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Shape.png" class="card-img-top" alt="Ed Sheeran">
+				  <div class="card-body">
+				    <h5 class="card-title">Shape of You</h5>
+				    <p class="card-text">Ed Sheeran</p>
+				    <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" class="btn btn-primary corBotao">Clipe Oficial</a>
+				  </div> 
+				</div>    			
+    		</div>
+		</div>   
+	</div>
+
+
+
+	<div class="container box boxPrincipal centro" id="Rock">
+			<h3 class="display-3 centro" style="font-family: Times New Roman" >Músicas Rock</h3>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/End.png" class="card-img-top" alt="Linkin Park">
+				  <div class="card-body">
+				    <h5 class="card-title">In the End</h5>
+				    <p class="card-text"> Linkin Park</p>
+				    <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" class="btn btn-primary corBotao">Clipe Oficial</a>
+				 	</div>
+				  </div>    			
+    			</div>
+
+    			<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/Sandman.png" class="card-img-top" alt="Metallica">
+				  <div class="card-body">
+				    <h5 class="card-title">Enter Sandman</h5>
+				    <p class="card-text"> Metallica</p>
+				    <a href="https://www.youtube.com/watch?v=CD-E-LDc384" class="btn btn-primary corBotao">Clipe Oficial</a>
+				 	</div>
+				  </div>    			
+    			</div>
+
+    			<div class="col-md-4 col-sm-12 marginCards ">
+				<div class="card boxCard  TamanhoCard">
+				  <img src="imagem/AC.png" class="card-img-top" alt="AC/DC">
+				  <div class="card-body">
+				    <h5 class="card-title">Highway to Hell</h5>
+				    <p class="card-text"> AC/DC</p>
+				    <a href="https://www.youtube.com/watch?v=ikFFVfObwss" class="btn btn-primary corBotao">Clipe Oficial</a>
+				 	</div>
+				  </div>    			
+    			</div>
+
+
+		</div>
+	</div>
+
+	<div class="container-fluid  boxContato centro" id="Contato" style="padding: 35px;border-radius: 5px;	  	
+ 	   bottom: 0;">
+	 <div class="accordion" id="accordionExample">
+	<div class="accordion-item" style="background-color: black  ">
+		    <h2 class="accordion-header" id="headingOne">
+		      <button class="accordion-button corBotao " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: darkorange;
+ 	  	color: white; border-color: black; border-radius: 70px; ">
+		        Contato
+		      </button>
+		    </h2>
+		    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="background-color: orange; border-radius: 20px">
+		      <div class="accordion-body">
+
+		      	<span class="lead">
+		      		Telefone(Antony): (19) 989981129 &nbsp;&nbsp;&nbsp;&nbsp;      Email:cl200121@g.unicamp.br
+		      		<br>
+		      		Telefone(Rafael): (19) 998704353 &nbsp;&nbsp;&nbsp;&nbsp;	   Email:cl200149@g.unicamp.br
+		      	</span>
+
+
+
+
+    </div>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  
+  
+
+</body>
+</html>
+
+

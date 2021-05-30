@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<title>Projeto de Site</title>
+
+	<link rel="icon"  href="imagem/favicon.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   
+	<style type="text/css">
+
+	  .box {
+ 	  	padding: 70px;
+ 	  	border-radius: 5px;	  	
+ 	  	margin-bottom: 10px; 	  	
+	  }
+	  
+ 	  .boxPrincipal {
+ 	  	background-color: lightgreen;
+
+ 	  }
+
+ 	  .boxCursos {
+ 	  	background-color: rgb(207,226,255);
+ 	  } 	  
+
+ 	  .marginCards {
+ 	  	margin-bottom: 30px;
+ 	  }
+
+ 	  .centro{
+ 	  	text-align: center;
+ 	  }
+
+	</style>	
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+   		<img src="imagem/AR.png" alt="" width="50" height="35" style="border-radius: 13px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Projeto_de_Site.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Noticias.html">Notícias</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Escolha seu tipo de música
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Sertanejo</a></li>
+            <li><a class="dropdown-item" href="#">Rock</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Pop</a></li>
+          </ul>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+	<div class="container box boxPrincipal">  
+		<br>
+        <h1 class="display-3 centro"  style="font-family: Times New Roman">AR - Músicas</h1>        
+        <p class="lead centro">Essas músicas foram recomendadas pelos criadores do site</p>
+        <hr>
+        <a href="Formulários.html" class="btn btn-primary btn-lg centro" style="background-color: black; border-color: black" >
+            Cadastre-se no nosso site para receber nossas recomendações de músicas
+        </a>
+    </div>	
+	
+    <div class="accordion" id="accordionExample">
+
+           
+		  <div class="accordion-item">
+		    <h2 class="accordion-header" id="headingOne">
+		      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Músicas Sertanejas</button></h2>
+
+		      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+
+	<div class="container box boxPrincipal centro">
+	<div class="row">   
+    		<div class="col-md-4 col-sm-12 marginCards">
+				<div class="card">
+				  <img src="assets/img/edificacoes.jpg" class="card-img-top" alt="Edificações" height="195px">
+				  <div class="card-body">
+				    <h5 class="card-title">Edificações</h5>
+				    <p class="card-text">Para quem tem interesse na área da construção civil.</p>
+				    <a href="edificoes.html" class="btn btn-primary">Conheça</a>
+				  </div>
+				</div>    			
+    		</div>
+
+			<div class="col-md-4 col-sm-12 marginCards">
+				<div class="card">
+				  <img src="assets/img/enfermagem.png" class="card-img-top" alt="Enfermagem" height="195px">
+				  <div class="card-body">
+				    <h5 class="card-title">Enfermagem</h5>
+				    <p class="card-text">Curso focado na área da saúde. Salve vidas!</p>
+				    <a href="enfermagem.html" class="btn btn-primary">Conheça</a>
+				  </div>
+				</div>       			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12 marginCards">
+				<div class="card">
+				  <img src="assets/img/geodesia.jpg" class="card-img-top" alt="Geodésia" height="195px">
+				  <div class="card-body">
+				    <h5 class="card-title">Geodésia</h5>
+				    <p class="card-text">Se você gosta de mapas, satélites e cartografia, esse é o curso.</p>
+				    <a href="geodesia.html" class="btn btn-primary">Conheça</a>
+				  </div>
+				</div>       			
+    		</div>
+    	</div>
+    </div>
+</div>
+</div>
+		<div>
+		 <div class="accordion" id="accordionExample" >
+
+          
+		  <div class="accordion-item">
+		    <h2 class="accordion-header" id="headingOne">
+		      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Músicas Sertanejas</button></h2>
+
+		      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+
+		      	<div class="container box boxPrincipal centro">
+    	<div class="row">   
+    		<div class="col-md-4 col-sm-12">
+				<div class="card">
+				  <img src="assets/img/informatica.png" class="card-img-top" alt="Informática" height="195px">
+				  <div class="card-body">
+				    <h5 class="card-title">Informática</h5>
+				    <p class="card-text" style="margin-bottom: 25%;">Desenvolva sistemas, aplicativos e sites.</p>
+				    <a href="edificoes.html" class="btn btn-primary">Conheça</a>
+				  </div>
+				</div>    			
+    		</div>
+
+			<div class="col-md-4 col-sm-12">
+				<div class="card">
+				  <img src="assets/img/mecanica.jpg" class="card-img-top" alt="Mecânica" height="195px">
+				  <div class="card-body">
+				    <h5 class="card-title">Mecânica</h5>
+				    <p class="card-text">Projeto, fabricação, operação e manutenção de máquinas, equipamentos e sistemas mecânicos.</p>
+				    <a href="enfermagem.html" class="btn btn-primary">Conheça</a>
+				  </div>
+				</div>       			
+    		</div>
+
+    		<div class="col-md-4 col-sm-12">
+				<div class="card">
+				  <img src="assets/img/qualidade.png" class="card-img-top" alt="Qualidade" height="195px">
+				  <div class="card-body">
+				    <h5 class="card-title">Qualidade</h5>
+				    <p class="card-text">Apoiar tecnicamente a implementação e a manutenção dos sistemas de gestão da qualidade.</p>
+				    <a href="geodesia.html" class="btn btn-primary">Conheça</a>
+				  </div>
+				</div>       			
+    		</div>
+    	</div>
+    	</div>
+    </div>	
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  
+  
+
+</body>
+</html>
+
+

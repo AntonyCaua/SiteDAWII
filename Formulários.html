@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="estiloForms.css">
+
+</head>
+<body>
+
+<div class="form" class="container">
+<form name="Formulário" method="get" action=" " autocomplete="on">
+
+	<div class="CaixaDeTexto">
+		Nome: <input type="text" name="Nome" placeholder="Digite seu nome" minlength="6" required class="CaixaDeTexto">
+	</div>
+	
+	<br>
+	
+	Email: <input type="email" name="email" placeholder="Digite seu email" spellcheck="true" minlength="6" required class="CaixaDeTexto">
+
+	<br><br>
+
+	Sexo: <input type="radio" name="Sexo" value="Masculino">Masculino <input type="radio" name="Sexo" value="Feminino" minlength="6"required>Feminino
+	
+	<br><br>
+
+	Senha do cadastro: <input type="password" name="Senha" class="CaixaDeTexto">
+
+	<br><br>
+
+	<label for="txtDate">Data de Cadastro:</label>
+    <INPUT type="date" ></INPUT></br>
+
+	<br>
+
+	Selecione o seus estilo de música: <br>
+	 <input type="checkbox" name="Estilo" value="Marítimo" > Rock
+	 <input type="checkbox" name="Estilo" value="Aério"> Sertanejo
+	 <input type="checkbox" name="Estilo" value="Rodoviário"> Pop
+	 
+	</select>
+
+	<br><br>
+
+	Nacionalidade: <select name="Países para importação" value="Países para importação" class="CaixaDeTexto">
+	
+	
+
+	<option value="EUA">Americano</option>
+
+	<option value="México">Europeu</option>
+
+	<option value="Alemanha">Asiático</option>
+
+	<option value="França">Africano</option>
+
+	
+
+	</optgroup>
+	</select>
+
+	<br><br>
+
+	Busca por música: <input type="search" name="Buscar" placeholder="Busque sua música" class="CaixaDeTexto">
+	
+	<br><br>
+
+	
+	<br><br>
+	<div class="container">
+	 <input type="reset" name="Resetar" value="Resetar Dados">
+	 <input type="submit" name="Cadastro" value="Cadastrar">
+	 <input type="button" onclick="alert('sério que você clicou no botão?')"value="Botão">
+	 </div>
+
+	 <br>
+	<li><a href="Projeto_Inicio.html" type="button" > Voltar ao Site </a></li>
+	
+</form>
+</div>
+</body>
+</html>
